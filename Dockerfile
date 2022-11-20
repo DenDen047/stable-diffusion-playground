@@ -8,4 +8,4 @@ RUN apt install -y python3 python3-venv
 RUN apt install -y python3-pip
 
 # RUN git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
-RUN bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh) 
+RUN bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
